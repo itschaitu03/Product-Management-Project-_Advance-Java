@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Mixed gradient background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+    color: #2c3e50; /* A deep, classic dark blue color */
+    font-size: 36px; /* Slightly larger font size for elegance */
+    margin-bottom: 25px; /* More spacing to add elegance */
+    font-family: 'Georgia', serif; /* Classic serif font for sophistication */
+    font-weight: 600; /* A slightly lighter weight for a more graceful feel */
+    letter-spacing: 1px; /* Small spacing between letters for an upscale look */
+    text-transform: capitalize; /* Capitalizes the first letter of each word for style */
+    line-height: 1.4; /* Adds spacing between lines for better readability */
+}
+
+
+        .input-button {
+            width: 100%;
+            padding: 14px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            font-size: 16px;
+            background-color: #3897f0; /* Primary button color */
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .input-button:hover {
+            background-color: #2a77cc; /* Darker shade on hover */
+        }
+
+        .input-button:disabled {
+            background-color: #b0b0b0;
+            cursor: not-allowed;
+        }
+
+        .link {
+            display: inline-block;
+            text-decoration: none;
+            color: #3897f0;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #8e8e8e;
+        }
+
+        .footer-text a {
+            color: #8e8e8e;
+            text-decoration: none;
+        }
+
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+        a {
+    text-decoration: none;
+}
+        
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>CarVibe</h1>
+        <a href="Admin.html">
+            <input type="submit" class="input-button" value="Admin">
+        </a>
+        <a href="Customer.html">
+            <input type="submit" class="input-button" value="Customer">
+        </a>
+        <div class="footer-text">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+
+    <div class="footer-text">
+        <p><a href="#">About</a> · <a href="#">Help</a> · <a href="#">Press</a> · <a href="#">API</a> · <a href="#">Jobs</a> · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Locations</a> · <a href="#">Top Accounts</a> · <a href="#">Hashtags</a> · <a href="#">Language</a></p>
+    </div>
+
+</body>
+</html>

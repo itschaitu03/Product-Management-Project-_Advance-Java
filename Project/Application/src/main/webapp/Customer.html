@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fff; /* White background for the page */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column; /* Change layout to column */
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+            color: #2c3e50; /* Dark blue color */
+            font-size: 36px;
+            margin-bottom: 25px;
+            font-family: 'Georgia', serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            line-height: 1.4;
+        }
+
+        .input-button {
+            width: 100%;
+            padding: 14px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            font-size: 16px;
+            background-color: #3897f0;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .input-button:hover {
+            background-color: #2a77cc;
+        }
+
+        .input-button:disabled {
+            background-color: #b0b0b0;
+            cursor: not-allowed;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #8e8e8e;
+        }
+
+        .footer-text a {
+            color: #8e8e8e;
+            text-decoration: none;
+        }
+
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Customer</h1>
+        <a href="SignIN.html">
+            <input type="submit" class="input-button" value="Sign In">
+        </a>
+        <a href="SignUP.html">
+            <input type="submit" class="input-button" value="Sign Up">
+        </a>
+        <div class="footer-text">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+
+    <div class="footer-text">
+        <p><a href="#">About</a> · <a href="#">Help</a> · <a href="#">Press</a> · <a href="#">API</a> · <a href="#">Jobs</a> · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Locations</a> · <a href="#">Top Accounts</a> · <a href="#">Hashtags</a> · <a href="#">Language</a></p>
+    </div>
+
+</body>
+</html>
